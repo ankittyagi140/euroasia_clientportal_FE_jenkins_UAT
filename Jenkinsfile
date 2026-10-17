@@ -28,8 +28,7 @@ pipeline {
         IMAGE           = "${REGISTRY}/${APP_NAME}"
         IMAGE_TAG       = "${BUILD_NUMBER}"
 
-        // Update once the Client Portal platform/infra job is registered in Jenkins.
-        PLATFORM_JOB    = 'EUROASIA_SCI_CLIENT_PORTAL/Euroasia_ClientPortal/Euroasia_clientportal_Infra/Euroasia_clientportal_Infra'
+        PLATFORM_JOB    = 'EUROASIA_SCI_CLIENT_PORTAL/Euroasia_Inspection/Euroasia_inspection_Infra/Euroasia_inspection_Infra'
     }
 
     stages {
